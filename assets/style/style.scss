@@ -1,0 +1,23 @@
+// Global Style
+@import './styleResources/_variables';
+@import './bootstrap/reboot';
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+body {
+  font-feature-settings: "normal";
+  //字間調整
+  line-height: 1.7;
+  color: $color; //ここは文字色（_Variablesで設定）
+  // padding-top: $global-header-height;
+  background-color: $background;
+}
+
+.shadow{
+  box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.36);
+}
+.shadow2{
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.17);
+}
+
+.shadow3{
+  text-shadow: 1px 2px 2px rgba($color, 0.1);
+}
