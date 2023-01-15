@@ -37,7 +37,7 @@ export default{
 
 <style lang='scss' scoped>
 .AppButton{
-  width:90%;
+  width:100%;
   border-radius: 0.5rem;
   height: 120px;
   display:flex;
@@ -46,14 +46,14 @@ export default{
   @include media-breakpoint-down(md){
     height:100px;
   }
-  cursor: pointer;
-  &:hover{
-    width:92%;
-    height:125px;
-    @include media-breakpoint-down(md){
-    height:110px;
-  }
-  }
+  // cursor: pointer;
+  // &:hover{
+  //   width:92%;
+  //   height:125px;
+  //   @include media-breakpoint-down(md){
+  //   height:110px;
+  // }
+  // }
   &__img{
     height:100%;
     display: flex;
@@ -71,9 +71,6 @@ export default{
       font-family: $accentfont;
       color:$accent;
       font-size: 2.5rem;
-      @include media-breakpoint-down(lg){
-        font-size: 1.5rem;
-      }
     }
     &__desc{
       color:$color
